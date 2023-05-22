@@ -68,19 +68,23 @@ Hosts/Net: 6                     (Private Internet)
   6.  Как проверить ARP-таблицу в Linux, Windows? Как очистить ARP-кеш полностью? Как из ARP-таблицы удалить только один нужный IP?
 В Linux
 Для просмотра arp-a
+
 ![изображение](https://github.com/Razbor/NET2/assets/19568831/0a2add77-816d-4d98-9175-827ca57c7220)
 
 Для очистки ip neigh flush all
+
 ![изображение](https://github.com/Razbor/NET2/assets/19568831/314abaec-b0d3-4c21-b39a-c2841fb92be6)
 
 Для удаления определенного узла sudo ip neigh delete <IP>
     
 В Windows 
 Для проверки используется команда arp -a
+    
 ![изображение](https://github.com/Razbor/NET2/assets/19568831/b7320d9c-6f87-4eff-bee8-545691d1b610)
     
   
 Для удаления команда arp -d *
+    
 ![изображение](https://github.com/Razbor/NET2/assets/19568831/93d8b937-d866-4162-bece-62e221bed1ca)
     
 Для удаления определнного arp -d <IP>
